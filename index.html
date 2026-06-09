@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grove Dental Practice | Family Dental Care in East Ham, London</title>
+  <meta name="description" content="Grove Dental Practice in East Ham, London offers quality NHS and private dental treatments. Proudly caring for families and local patients for over 25 years under Dr Syed Hussain." />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
+
+  <!-- Google Fonts: Plus Jakarta Sans (Headers) & Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Accessibility Skip Link -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ STICKY HEADER ============ -->
+  <header class="site-header" id="top">
+    <div class="container nav-inner">
+      <a class="brand" href="#hero" aria-label="Grove Dental Practice — home">
+        <!-- SVG Logo -->
+        <svg class="brand-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 60" width="180" height="43" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+          <g transform="translate(5, 5)">
+            <path d="M 22 10 C 27 10, 31 13, 35 15 C 39 13, 43 10, 48 10 C 53 10, 56 14, 55 22 C 54 32, 48 42, 45 46 C 44 48, 42 48, 41 46 C 39 42, 38 40, 35 38 C 32 40, 31 42, 29 46 C 28 48, 26 48, 25 46 C 22 42, 16 32, 15 22 C 14 14, 17 10, 22 10 Z" stroke="var(--color-primary)" stroke-width="2.5" />
+            <path d="M 35 15 C 38 18, 38 23, 34 26 C 30 29, 26 27, 26 27 M 26 27 C 29 24, 33 21, 35 15 Z" fill="var(--color-accent)" stroke="var(--color-accent)" stroke-width="1.5" />
+            <path d="M 35 15 L 35 38" stroke="var(--color-accent)" stroke-width="1.5" stroke-dasharray="1 1" />
+          </g>
+          <text x="72" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="19" font-weight="700" fill="var(--color-primary)">Grove Dental</text>
+          <text x="72" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="600" letter-spacing="2" fill="var(--color-text-dark)">PRACTICE</text>
+        </svg>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary Navigation">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#reviews" class="nav-link">Reviews</a></li>
+          <li><a href="#team" class="nav-link">Team</a></li>
+          <li><a href="#faqs" class="nav-link">FAQs</a></li>
+          <li><a href="#find-us" class="nav-link">Find Us</a></li>
+          <li><a href="#booking" class="nav-link nav-cta-header">Book Appointment</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ 1. HERO ============ -->
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+      <!-- Floating Organic Background Blobs -->
+      <div class="hero-organic-bg" aria-hidden="true">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <path fill="var(--color-primary-light)" d="M46.7,-67.2C58.8,-57.4,66.1,-41.8,71.2,-25.7C76.3,-9.6,79.2,7,74.9,21.5C70.6,35.9,59,48.2,45.8,57.1C32.7,65.9,18,71.4,1.8,68.9C-14.4,66.4,-28.7,55.9,-42.6,46.5C-56.5,37.1,-69.9,28.8,-74.6,16.2C-79.3,3.6,-75.4,-13.4,-67.7,-27.6C-60,-41.7,-48.6,-53.1,-35.6,-62.4C-22.6,-71.7,-8,-78.9,8.4,-90.5C24.8,-102.1,34.7,-77,46.7,-67.2Z" transform="translate(100 100)" />
+        </svg>
+      </div>
+      
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-eyebrow">
+            <span class="leaf-badge" aria-hidden="true">🍃</span>
+            <span>NHS &amp; Private · East Ham, London</span>
+          </div>
+          <h1 id="hero-heading">Trusted, Long-Established <span class="highlight-text">Dental Care</span> in East Ham</h1>
+          <p class="hero-sub">Providing warm, welcoming NHS and private treatments. Families and all generations are welcome, with over 25 years of local care under Dr Syed Hussain.</p>
+          <div class="hero-actions">
+            <a href="#booking" class="btn btn-primary">Book Appointment</a>
+            <a href="tel:02085521953" class="btn btn-secondary">Call us 020 8552 1953</a>
+          </div>
+        </div>
+        
+        <div class="hero-media-wrapper">
+          <!-- Asymmetrical Frame & Parallax Hero Image -->
+          <div class="hero-frame glass-card">
+            <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1100&q=70" alt="Calm and modern dental clinic reception room styled with wood and leaf accents" class="hero-img" width="1100" height="825" loading="eager" />
+          </div>
+          <!-- SVG Tracing Leaf Accent -->
+          <svg class="hero-tracing-leaf" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 3.5 2 5.5a7 7 0 0 1-12 12.5z" />
+            <path d="M9 22v-4" />
+            <path d="M14 17c-2-3-1.5-6.5-.5-8" />
+          </svg>
+        </div>
+      </div>
+      <!-- Soft Curved Divider -->
+      <div class="section-divider-bottom" aria-hidden="true">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" fill="var(--color-bg-alt)"></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ============ 2. ABOUT ============ -->
+    <section class="section section-alt" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-intro">
+            <p class="eyebrow">About the practice</p>
+            <h2 id="about-heading">Caring for the East Ham Community</h2>
+            <p>Grove Dental Practice is a family-oriented clinic situated on Plashet Grove. Our practice is built on trust, clinical expertise, and strong, long-standing relationships with the families we serve.</p>
+            <p>Dr Syed Hussain has been caring for local patients for over 25 years, creating multi-generational dental relationships where parents now bring their children and grandchildren to the same trusted hands. We take deep pride in our gentle, calming environment, helping even the most anxious patients feel completely at ease.</p>
+            
+            <!-- Incremental Counter Element -->
+            <div class="about-counter-card glass-card">
+              <div class="counter-num-wrapper">
+                <span class="counter-number" id="years-counter" data-target="25">0</span>
+                <span class="counter-plus">+</span>
+              </div>
+              <p class="counter-label">Years of trusted community care in East Ham</p>
+            </div>
+          </div>
+          
+          <div class="about-cards-wrapper">
+            <!-- Asymmetrical Card List -->
+            <ul class="about-cards">
+              <li class="about-card glass-card">
+                <div class="card-icon" aria-hidden="true">
+                  <span class="icon-circle">🦷</span>
+                </div>
+                <h3>A Trusted Dentist</h3>
+                <p>Dr Syed Hussain has led our clinic for more than 25 years with a gentle, patient-first approach.</p>
+              </li>
+              <li class="about-card glass-card">
+                <div class="card-icon" aria-hidden="true">
+                  <span class="icon-circle">🏡</span>
+                </div>
+                <h3>NHS &amp; Private</h3>
+                <p>Mixed services designed to suit every patient, keeping essential and cosmetic care accessible.</p>
+              </li>
+              <li class="about-card glass-card">
+                <div class="card-icon" aria-hidden="true">
+                  <span class="icon-circle">🍃</span>
+                </div>
+                <h3>Gentle, Personal Care</h3>
+                <p>Relaxed, unhurried treatment sessions tailored to make nervous patients feel completely safe.</p>
+              </li>
+              <li class="about-card glass-card">
+                <div class="card-icon" aria-hidden="true">
+                  <span class="icon-circle">📍</span>
+                </div>
+                <h3>Plashet Grove Heritage</h3>
+                <p>Conveniently located in East Ham, a familiar and trusted fixture in the local neighbourhood.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Interactive Heritage Timeline -->
+        <div class="timeline-wrapper">
+          <h3 class="timeline-title">Our Practice Heritage</h3>
+          <p class="timeline-desc">Click a milestone to trace the history of care at our clinic</p>
+          
+          <div class="timeline-navigation" role="tablist" aria-label="Heritage Milestones">
+            <button class="timeline-node active" id="node-1" role="tab" aria-selected="true" aria-controls="panel-1" tabindex="0">
+              <span class="node-year">1980s</span>
+              <span class="node-label">Early Roots</span>
+            </button>
+            <button class="timeline-node" id="node-2" role="tab" aria-selected="false" aria-controls="panel-2" tabindex="-1">
+              <span class="node-year">1990s</span>
+              <span class="node-label">The Jorder Era</span>
+            </button>
+            <button class="timeline-node" id="node-3" role="tab" aria-selected="false" aria-controls="panel-3" tabindex="-1">
+              <span class="node-year">2000s</span>
+              <span class="node-label">Dr Hussain's Tenure</span>
+            </button>
+            <button class="timeline-node" id="node-4" role="tab" aria-selected="false" aria-controls="panel-4" tabindex="-1">
+              <span class="node-year">Today</span>
+              <span class="node-label">Modern Community Practice</span>
+            </button>
+          </div>
+
+          <div class="timeline-content-wrapper">
+            <div class="timeline-panel glass-card active" id="panel-1" role="tabpanel" aria-labelledby="node-1">
+              <h4>Founding of the Local Clinic</h4>
+              <p>Establishing our dental care presence on Plashet Grove. Providing family care to East Ham's early community members in a warm residential setting.</p>
+            </div>
+            <div class="timeline-panel glass-card" id="panel-2" role="tabpanel" aria-labelledby="node-2" hidden>
+              <h4>The Jorder Era</h4>
+              <p>Under the stewardship of Mr Jorder, the practice establishes its core reputation for welcoming, family-oriented dental care in the East Ham area.</p>
+            </div>
+            <div class="timeline-panel glass-card" id="panel-3" role="tabpanel" aria-labelledby="node-3" hidden>
+              <h4>Dr Syed Hussain Takes the Lead</h4>
+              <p>Dr Hussain begins his tenure as Principal Dentist. He introduces modern clinical techniques while strengthening personal ties to local patient families.</p>
+            </div>
+            <div class="timeline-panel glass-card" id="panel-4" role="tabpanel" aria-labelledby="node-4" hidden>
+              <h4>A Modernized Family Practice</h4>
+              <p>Continuing the legacy today with digital check-ups, restorative treatments, and mixed NHS &amp; private structures that keep East Ham smiling.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3. SERVICES ============ -->
+    <section class="section" id="services" aria-labelledby="services-heading">
+      <!-- Top Decorative Curve -->
+      <div class="section-divider-top" aria-hidden="true">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,1,321.39,56.44Z" fill="var(--color-bg-alt)"></path>
+        </svg>
+      </div>
+
+      <div class="container">
+        <div class="section-head text-center">
+          <p class="eyebrow">Our Treatments</p>
+          <h2 id="services-heading">Dental Care &amp; Services</h2>
+          <p class="section-intro">Select a treatment below to view description and pricing information. <!-- [TO CONFIRM: Check list of services offered & real pricing] --></p>
+        </div>
+
+        <!-- Grid of Services -->
+        <ul class="services-grid" id="servicesGrid">
+          <!-- 1. Check-ups -->
+          <li>
+            <button class="service-trigger" aria-expanded="false" aria-controls="panel-svc-1">
+              <span class="service-icon" aria-hidden="true">
+                <!-- SVG Custom Monoline Icon (Check-up / Stethoscope & Leaf) -->
+                <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                  <path d="M20 5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" stroke="var(--color-accent)" stroke-width="1" />
+                </svg>
+              </span>
+              <span class="service-label">Check-ups &amp; Care Advice</span>
+            </button>
+          </li>
+          <!-- 2. Scale & Polish -->
+          <li>
+            <button class="service-trigger" aria-expanded="false" aria-controls="panel-svc-2">
+              <span class="service-icon" aria-hidden="true">
+                <!-- SVG Icon (Scale & Polish / Sparkle & Clean) -->
+                <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 3v18M3 12h18" />
+                  <path d="M12 12m-6 0a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z" stroke-dasharray="2 2" />
+                  <path d="M5 5l14 14" stroke="var(--color-accent)" stroke-width="1" />
+                </svg>
+              </span>
+              <span class="service-label">Scale &amp; Polish</span>
+            </button>
+          </li>
+          <!-- 3. Fillings -->
+          <li>
+            <button class="service-trigger" aria-expanded="false" aria-controls="panel-svc-3">
+              <span class="service-icon" aria-hidden="true">
+                <!-- SVG Icon (Fillings / Restorative Tooth) -->
+                <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 2C8 2 5 5 5 9c0 5 4 9 4 12h6c0-3 4-7 4-12 0-4-3-7-7-7Z" />
+                  <path d="M9 9h6v3H9Z" fill="var(--color-accent-light)" stroke="var(--color-accent)" stroke-width="1" />
+                </svg>
+              </span>
+              <span class="service-label">Fillings</span>
+            </button>
+          </li>
+          <!-- 4. Root Canal -->
+          <li>
+            <button class="service-trigger" aria-expanded="false" aria-controls="panel-svc-4">
+              <span class="service-icon" aria-hidden="true">
+                <!-- SVG Icon (Root Canal / Inner Nerve) -->
+                <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M12 3v12M10 15c-1 3-3 5-3 6M14 15c1 3 3 5 3 6" />
+                  <path d="M12 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" stroke="var(--color-accent)" />
+                </svg>
+              </span>
+              <span class="service-label">Root Canal</span>
+            </button>
+          </li>
+          <!-- 5. Gum Treatment -->
+          <li>
+            <button class="service-trigger" aria-expanded="false" aria-controls="panel-svc-5">
+              <span class="service-icon" aria-hidden="true">
+                <!-- SVG Icon (Gum Care / Waves of Health) -->
+                <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M4 10c4 2 8-2 12 0s4 2 4 2M4 14c4 2 8-2 12 0s4 2 4 2" />
+                  <circle cx="12" cy="7" r="2" fill="var(--color-accent-light)" stroke="var(--color-accent)" stroke-width="1" />
+                </svg>
+              </span>
+              <span class="service-label">Gum Disease Treatment</span>
+            </button>
+          </li>
+          <!-- 6. Crowns & Bridges -->
+          <li>
+            <button class="service-trigger" aria-expanded="false" aria-controls="panel-svc-6">
+              <span class="service-icon" aria-hidden="true">
+                <!-- SVG Icon (Crowns / Bridge) -->
+                <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M3 19h18M6 19v-4a2 2 0 0 1 4 0v4M14 19v-4a2 2 0 0 1 4 0v4" />
+                  <path d="M12 5L8 10h8l-4-5Z" fill="var(--color-accent-light)" stroke="var(--color-accent)" stroke-width="1" />
+                </svg>
+              </span>
+              <span class="service-label">Crowns &amp; Bridges</span>
+            </button>
+          </li>
+          <!-- 7. Extractions -->
+          <li>
+            <button class="service-trigger" aria-expanded="false" aria-controls="panel-svc-7">
+              <span class="service-icon" aria-hidden="true">
+                <!-- SVG Icon (Extraction / Relieving Tooth Gap) -->
+                <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M5 9c0 5 4 9 4 12h6c0-3 4-7 4-12M12 2v4M12 9v1" />
+                  <path d="M8 5a4 4 0 0 1 8 0" stroke="var(--color-accent)" />
+                </svg>
+              </span>
+              <span class="service-label">Tooth Extractions</span>
+            </button>
+          </li>
+        </ul>
+
+        <!-- Expanded Service Panels container (rendered via script dynamically under target row or at bottom) -->
+        <div class="service-details-wrapper">
+          <!-- 1. Check-ups Details -->
+          <div class="service-panel glass-card" id="panel-svc-1" role="region" hidden>
+            <h4>Check-ups &amp; Dental Care Advice</h4>
+            <p>Personalised guidance on brushing, flossing, diet and prevention, tailored to your needs. We'll help you build simple habits that keep your teeth and gums healthy between visits. A great starting point if you want to take better care of your smile.</p>
+            <div class="panel-prices">
+              <span class="price-item"><strong>Private Cost:</strong> from £55</span>
+              <span class="price-item"><strong>NHS Cost:</strong> <a href="https://www.nhs.uk/nhs-services/dentists/dental-costs/" target="_blank" rel="noopener noreferrer">Band 1</a> — £26.80</span>
+            </div>
+          </div>
+          
+          <!-- 2. Scale & Polish Details -->
+          <div class="service-panel glass-card" id="panel-svc-2" role="region" hidden>
+            <h4>Scale &amp; Polish</h4>
+            <p>A professional clean to remove plaque and tartar build-up that standard brushing misses. Includes a gentle polish to remove external stains and leave your teeth feeling fresh and smooth. Essential for maintaining clean gums.</p>
+            <div class="panel-prices">
+              <span class="price-item"><strong>Private Cost:</strong> from £75</span>
+              <span class="price-item"><strong>NHS Cost:</strong> <a href="https://www.nhs.uk/nhs-services/dentists/dental-costs/" target="_blank" rel="noopener noreferrer">Band 1</a> — £26.80 <small>(when clinically necessary)</small></span>
+            </div>
+          </div>
+
+          <!-- 3. Fillings Details -->
+          <div class="service-panel glass-card" id="panel-svc-3" role="region" hidden>
+            <h4>Fillings</h4>
+            <p>Restorative treatment to repair structural damage caused by decay or chips. We use advanced materials to pack and seal the affected area, preserving your tooth and protecting it from further infection. High-quality restorative care.</p>
+            <div class="panel-prices">
+              <span class="price-item"><strong>Private Cost:</strong> from £120</span>
+              <span class="price-item"><strong>NHS Cost:</strong> <a href="https://www.nhs.uk/nhs-services/dentists/dental-costs/" target="_blank" rel="noopener noreferrer">Band 2</a> — £73.50</span>
+            </div>
+          </div>
+
+          <!-- 4. Root Canal Details -->
+          <div class="service-panel glass-card" id="panel-svc-4" role="region" hidden>
+            <h4>Root Canal Treatment</h4>
+            <p>Carefully cleaning out infected or inflamed pulp inside a tooth's root system to relieve toothache and prevent extraction. Once disinfected, the canal is sealed and filled. A highly effective way to save a severely damaged tooth.</p>
+            <div class="panel-prices">
+              <span class="price-item"><strong>Private Cost:</strong> from £450</span>
+              <span class="price-item"><strong>NHS Cost:</strong> <a href="https://www.nhs.uk/nhs-services/dentists/dental-costs/" target="_blank" rel="noopener noreferrer">Band 2</a> — £73.50</span>
+            </div>
+          </div>
+
+          <!-- 5. Gum Treatment Details -->
+          <div class="service-panel glass-card" id="panel-svc-5" role="region" hidden>
+            <h4>Gum Disease Treatment</h4>
+            <p>Clinical treatments for gingivitis or periodontitis to control infections and stop gum recession. This includes deep scaling, root planing, and personalized hygienic instruction to protect the bone structure supporting your teeth.</p>
+            <div class="panel-prices">
+              <span class="price-item"><strong>Private Cost:</strong> from £100</span>
+              <span class="price-item"><strong>NHS Cost:</strong> <a href="https://www.nhs.uk/nhs-services/dentists/dental-costs/" target="_blank" rel="noopener noreferrer">Band 2</a> — £73.50</span>
+            </div>
+          </div>
+
+          <!-- 6. Crowns & Bridges Details -->
+          <div class="service-panel glass-card" id="panel-svc-6" role="region" hidden>
+            <h4>Crowns &amp; Bridges</h4>
+            <p>Premium covers shaped like natural teeth to protect and strengthen broken or weakened teeth (Crowns), or custom dental prosthetics anchored to healthy teeth to bridge the gap left by missing teeth (Bridges).</p>
+            <div class="panel-prices">
+              <span class="price-item"><strong>Private Cost:</strong> Crowns from £600 · Bridges from £700 per unit</span>
+              <span class="price-item"><strong>NHS Cost:</strong> <a href="https://www.nhs.uk/nhs-services/dentists/dental-costs/" target="_blank" rel="noopener noreferrer">Band 3</a> — £319.10</span>
+            </div>
+          </div>
+
+          <!-- 7. Extractions Details -->
+          <div class="service-panel glass-card" id="panel-svc-7" role="region" hidden>
+            <h4>Tooth Extractions</h4>
+            <p>Safe, gentle removal of non-restorable, broken, or infected teeth. We use pain-free local anesthetics and provide detailed aftercare instructions to ensure rapid, comfortable healing and gum recovery.</p>
+            <div class="panel-prices">
+              <span class="price-item"><strong>Private Cost:</strong> from £150</span>
+              <span class="price-item"><strong>NHS Cost:</strong> <a href="https://www.nhs.uk/nhs-services/dentists/dental-costs/" target="_blank" rel="noopener noreferrer">Band 2</a> — £73.50</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="services-disclosure">
+          <p>NHS treatments follow standard regulatory price bands: <a href="https://www.nhs.uk/nhs-services/dentists/dental-costs/" target="_blank" rel="noopener noreferrer">Band 1</a> £26.80 · <a href="https://www.nhs.uk/nhs-services/dentists/dental-costs/" target="_blank" rel="noopener noreferrer">Band 2</a> £73.50 · <a href="https://www.nhs.uk/nhs-services/dentists/dental-costs/" target="_blank" rel="noopener noreferrer">Band 3</a> £319.10.</p>
+          <p>All prices and treatments are subject to assessment — please confirm at consultation.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4. REVIEWS ============ -->
+    <section class="section section-alt" id="reviews" aria-labelledby="reviews-heading">
+      <div class="container">
+        <div class="section-head text-center">
+          <p class="eyebrow">Patient Stories</p>
+          <h2 id="reviews-heading">Reviews from Our Patients</h2>
+        </div>
+
+        <!-- Google Reviews Sliding Deck Carousel -->
+        <div class="carousel-container" aria-roledescription="carousel" aria-label="Patient reviews">
+          <!-- Live Carousel Deck -->
+          <div class="carousel-inner" id="carouselInner">
+            
+            <!-- Review 1 -->
+            <div class="carousel-slide active" role="group" aria-roledescription="slide" aria-label="1 of 8" tabindex="0">
+              <div class="review-card glass-card">
+                <div class="rating-stars" aria-label="5 stars">★★★★★</div>
+                <blockquote class="review-quote">
+                  "Dr Hussain is the sweetest, nicest dentist I've ever met. My father is elderly and Mr Hussain has known him for over 25 years — he always puts Dad at ease and explains everything he's doing. A very humble, caring, and professional dentist. His assistant is very kind and conscientious. The reception staff are very professional. NHS / Private — 10 out of 10."
+                </blockquote>
+                <cite class="review-author">— Multi-decade family patient</cite>
+              </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="2 of 8" tabindex="-1" hidden>
+              <div class="review-card glass-card">
+                <div class="rating-stars" aria-label="5 stars">★★★★★</div>
+                <blockquote class="review-quote">
+                  "I've been at Grove Dental Practice since my mum was carrying me — so over 50 years. The best dental practice. Dr Ansari has been my dentist for about 12 years — he is kind, caring, and competent, and always goes the extra mile. Admin staff very helpful and polite too."
+                </blockquote>
+                <cite class="review-author">— 50-year multi-generational patient</cite>
+              </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="3 of 8" tabindex="-1" hidden>
+              <div class="review-card glass-card">
+                <div class="rating-stars" aria-label="5 stars">★★★★★</div>
+                <blockquote class="review-quote">
+                  "Excellent dental surgery. I've used this practice since I was a baby — 30 years now. My whole family use them. A++++."
+                </blockquote>
+                <cite class="review-author">— Whole-family patient (30 years)</cite>
+              </div>
+            </div>
+
+            <!-- Review 4 -->
+            <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="4 of 8" tabindex="-1" hidden>
+              <div class="review-card glass-card">
+                <div class="rating-stars" aria-label="5 stars">★★★★★</div>
+                <blockquote class="review-quote">
+                  "A huge thank you to Taiyba at Grove Dental Practice — she is such a sweet, kind, and caring person. She's always ready to help and very understanding. Whenever I'm nervous before my appointment, just stepping into the practice and seeing her smiley face lifts my spirit. Thank you Taiyba for everything you do. And Dr Ansari is a blessing to have as a dentist — he is very gentle and makes your visit far less stressful."
+                </blockquote>
+                <cite class="review-author">— Patient of Dr Ansari and Taiyba</cite>
+              </div>
+            </div>
+
+            <!-- Review 5 -->
+            <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="5 of 8" tabindex="-1" hidden>
+              <div class="review-card glass-card">
+                <div class="rating-stars" aria-label="5 stars">★★★★★</div>
+                <blockquote class="review-quote">
+                  "Amazing dental practice. Radha the receptionist (way too good to just be a receptionist) is brilliant — constant contact with me throughout my multiple dental treatments. Going to a dentist can be scary and anxious, but Dr Hussain is absolutely brilliant at what he does. The best in the game."
+                </blockquote>
+                <cite class="review-author">— Anxious patient praising Radha and Dr Hussain</cite>
+              </div>
+            </div>
+
+            <!-- Review 6 -->
+            <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="6 of 8" tabindex="-1" hidden>
+              <div class="review-card glass-card">
+                <div class="rating-stars" aria-label="5 stars">★★★★★</div>
+                <blockquote class="review-quote">
+                  "A fantastic practice from top to toe. I've always experienced the best care, which explains why I've been going back for 19 years. Receptionists are lovely, polite, and always happy to assist, and able to book appointments far in advance. They ring to remind you the day before — especially helpful if you've booked up six months ahead. The doctor I see is amazing, both in friendliness and in dental care, and is exceptionally qualified. I've never once been worried about sitting in his chair, even when having a tooth removed. A stellar practice."
+                </blockquote>
+                <cite class="review-author">— Detailed 19-year patient</cite>
+              </div>
+            </div>
+
+            <!-- Review 7 -->
+            <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="7 of 8" tabindex="-1" hidden>
+              <div class="review-card glass-card">
+                <div class="rating-stars" aria-label="5 stars">★★★★★</div>
+                <blockquote class="review-quote">
+                  "Dr Ansari is a wonderful dentist. He always makes sure his patients are well looked after, providing the best dental care possible. I'm so happy with the work he has done on my damaged tooth — words cannot express my gratitude. I would recommend him to anyone who wants outstanding dental work."
+                </blockquote>
+                <cite class="review-author">— Patient praising Dr Ansari's restorative work</cite>
+              </div>
+            </div>
+
+            <!-- Review 8 -->
+            <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="8 of 8" tabindex="-1" hidden>
+              <div class="review-card glass-card">
+                <div class="rating-stars" aria-label="5 stars">★★★★★</div>
+                <blockquote class="review-quote">
+                  "Dr Azhar Ansari — absolutely amazing. My dentist for the last decade. I have never come across another doctor who is as professional, polite, and helpful, all the time. He makes every situation as comfortable as possible."
+                </blockquote>
+                <cite class="review-author">— Decade-long patient of Dr Ansari</cite>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Carousel Controls -->
+          <div class="carousel-controls">
+            <button class="carousel-btn prev" id="carouselPrev" aria-label="Previous review">←</button>
+            
+            <div class="carousel-dots" id="carouselDots" role="group" aria-label="Select review slide">
+              <!-- Rendered dynamically via javascript -->
+            </div>
+            
+            <button class="carousel-btn next" id="carouselNext" aria-label="Next review">→</button>
+            <button class="carousel-play-pause" id="carouselPlayPause" aria-label="Pause auto rotation">⏸</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 5. TEAM ============ -->
+    <section class="section" id="team" aria-labelledby="team-heading">
+      <div class="container">
+        <div class="section-head text-center">
+          <p class="eyebrow">Our Clinicians &amp; Staff</p>
+          <h2 id="team-heading">Meet the Grove Dental Team</h2>
+          <p class="section-intro">Caring professionals dedicated to clinical excellence and comfortable patient experiences. <!-- [TO CONFIRM: Real bios and photos of team members] --></p>
+        </div>
+
+        <!-- Asymmetric Editorial Grid Layout -->
+        <div class="team-grid">
+          <!-- Member 1: Dr Syed Hussain -->
+          <div class="team-card glass-card">
+            <div class="team-photo-frame">
+              <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=600&q=70" alt="Portrait of Dr Syed Hussain, Principal Dentist at Grove Dental Practice" class="team-img" width="600" height="600" loading="lazy" />
+            </div>
+            <div class="team-info">
+              <h3>Dr Syed Hussain</h3>
+              <p class="team-role">Principal Dentist</p>
+              <span class="gdc-num">GDC: [TBC]</span>
+              <p class="team-bio">Principal Dentist caring for the East Ham community for over 25 years. Specializes in comfortable family dentistry and preventive dental care. (Bio TBC)</p>
+            </div>
+          </div>
+
+          <!-- Member 2: Dr Azhar Ansari -->
+          <div class="team-card glass-card">
+            <div class="team-photo-frame">
+              <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=600&q=70" alt="Portrait of Dr Azhar Ansari, Dentist at Grove Dental Practice" class="team-img" width="600" height="600" loading="lazy" />
+            </div>
+            <div class="team-info">
+              <h3>Dr Azhar Ansari</h3>
+              <p class="team-role">Dentist</p>
+              <span class="gdc-num">GDC: [TBC]</span>
+              <p class="team-bio">Highly praised dentist with a 10-year track record of gentle, restorative dental work and patient-centered crowns and restorations. (Bio TBC)</p>
+            </div>
+          </div>
+
+          <!-- Member 3: Dr Poonam Julka -->
+          <div class="team-card glass-card">
+            <div class="team-photo-frame">
+              <img src="https://images.unsplash.com/photo-1594824813573-246434de83fb?auto=format&fit=crop&w=600&q=70" alt="Portrait of Dr Poonam Julka, Dentist at Grove Dental Practice" class="team-img" width="600" height="600" loading="lazy" />
+            </div>
+            <div class="team-info">
+              <h3>Dr Poonam Julka</h3>
+              <p class="team-role">Dentist</p>
+              <span class="gdc-num">GDC: [TBC]</span>
+              <p class="team-bio">Renowned for informative, patient, and exceptionally reassuring consultations, putting anxious adults and children at ease. (Bio TBC)</p>
+            </div>
+          </div>
+
+          <!-- Member 4: Taiyba -->
+          <div class="team-card glass-card">
+            <div class="team-photo-frame">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=70" alt="Taiyba, Front-of-House at Grove Dental Practice" class="team-img" width="600" height="600" loading="lazy" />
+            </div>
+            <div class="team-info">
+              <h3>Taiyba</h3>
+              <p class="team-role">Front-of-House</p>
+              <span class="gdc-num">GDC: [N/A]</span>
+              <p class="team-bio">Described by patient reviews as the sweet, kind, and smiling face who lifts spirits and helps anxious visitors relax. (Bio TBC)</p>
+            </div>
+          </div>
+
+          <!-- Member 5: Radha -->
+          <div class="team-card glass-card">
+            <div class="team-photo-frame">
+              <img src="https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=600&q=70" alt="Radha, Receptionist at Grove Dental Practice" class="team-img" width="600" height="600" loading="lazy" />
+            </div>
+            <div class="team-info">
+              <h3>Radha</h3>
+              <p class="team-role">Receptionist</p>
+              <span class="gdc-num">GDC: [N/A]</span>
+              <p class="team-bio">Praised for constant, supportive communication and helping coordinate appointments and reminders across complex treatment schedules. (Bio TBC)</p>
+            </div>
+          </div>
+
+          <!-- Member 6: Marina -->
+          <div class="team-card glass-card">
+            <div class="team-photo-frame">
+              <img src="https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=600&q=70" alt="Marina, Receptionist at Grove Dental Practice" class="team-img" width="600" height="600" loading="lazy" />
+            </div>
+            <div class="team-info">
+              <h3>Marina</h3>
+              <p class="team-role">Receptionist</p>
+              <span class="gdc-num">GDC: [N/A]</span>
+              <p class="team-bio">Core member of our friendly reception team, greeting patients warmly and handling booking enquiries with care. (Bio TBC)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 6. FAQS ============ -->
+    <section class="section section-alt" id="faqs" aria-labelledby="faqs-heading">
+      <div class="container">
+        <div class="section-head text-center">
+          <p class="eyebrow">Common Questions</p>
+          <h2 id="faqs-heading">Frequently Asked Questions</h2>
+          <p class="section-intro">Clear information about treatments, policies, and what to expect. <!-- [TO CONFIRM: Confirm if currently accepting new patients] --></p>
+        </div>
+
+        <div class="faqs-accordion">
+          <!-- FAQ 1 -->
+          <div class="faq-item glass-card">
+            <button class="faq-trigger" id="faq-trig-1" aria-expanded="false" aria-controls="faq-panel-1">
+              <span class="faq-title">How much do treatments cost?</span>
+              <span class="faq-icon-indicator" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-panel" id="faq-panel-1" role="region" aria-labelledby="faq-trig-1" hidden>
+              <p>NHS treatments follow fixed price bands set by the government (Band 1: £26.80, Band 2: £73.50, Band 3: £319.10). Private treatments vary depending on complexity. Check-ups start from £55 privately. We provide a full, transparent breakdown of costs and a written treatment plan before any work begins.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item glass-card">
+            <button class="faq-trigger" id="faq-trig-2" aria-expanded="false" aria-controls="faq-panel-2">
+              <span class="faq-title">Do you offer NHS and private treatment?</span>
+              <span class="faq-icon-indicator" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-panel" id="faq-panel-2" role="region" aria-labelledby="faq-trig-2" hidden>
+              <p>Yes, we are a mixed practice offering both NHS treatments and private dentistry. You can choose to have your core treatments on the NHS and select specific cosmetic options (like white composite fillings or teeth whitening) privately if you wish.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item glass-card">
+            <button class="faq-trigger" id="faq-trig-3" aria-expanded="false" aria-controls="faq-panel-3">
+              <span class="faq-title">I'm nervous about visiting the dentist — how do you help?</span>
+              <span class="faq-icon-indicator" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-panel" id="faq-panel-3" role="region" aria-labelledby="faq-trig-3" hidden>
+              <p>Nervous patients are our specialty. Our dentists (Dr Hussain, Dr Ansari, and Dr Julka) are highly praised for their gentle, unhurried approach. We listen to your concerns, explain treatments step-by-step, let you take breaks, and progress entirely at your own comfort speed.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item glass-card">
+            <button class="faq-trigger" id="faq-trig-4" aria-expanded="false" aria-controls="faq-panel-4">
+              <span class="faq-title">What should I do in a dental emergency?</span>
+              <span class="faq-icon-indicator" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-panel" id="faq-panel-4" role="region" aria-labelledby="faq-trig-4" hidden>
+              <p>In a dental emergency (severe pain, bleeding, swelling, or a knocked-out tooth) during opening hours, please call our reception on 020 8552 1953 immediately. We keep dedicated daily slots open for emergencies. Out of hours, please call NHS 111 for advice and emergency support.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-item glass-card">
+            <button class="faq-trigger" id="faq-trig-5" aria-expanded="false" aria-controls="faq-panel-5">
+              <span class="faq-title">What happens at my first visit?</span>
+              <span class="faq-icon-indicator" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-panel" id="faq-panel-5" role="region" aria-labelledby="faq-trig-5" hidden>
+              <p>At your first visit, we will welcome you, discuss your medical history, and complete a thorough check of your teeth, gums, and mouth. We will take digital X-rays if necessary. If you need further treatment, we will explain your options and print out a clear cost breakdown plan.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="faq-item glass-card">
+            <button class="faq-trigger" id="faq-trig-6" aria-expanded="false" aria-controls="faq-panel-6">
+              <span class="faq-title">Are you accepting new patients?</span>
+              <span class="faq-icon-indicator" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-panel" id="faq-panel-6" role="region" aria-labelledby="faq-trig-6" hidden>
+              <p>Our capacity to take on new NHS and private patients varies throughout the year. Please contact our reception desk on 020 8552 1953 or fill out the appointment request form below, and we will advise you of our current availability. <!-- [TO CONFIRM: Confirm status] --></p>
+            </div>
+          </div>
+
+          <!-- FAQ 7 -->
+          <div class="faq-item glass-card">
+            <button class="faq-trigger" id="faq-trig-7" aria-expanded="false" aria-controls="faq-panel-7">
+              <span class="faq-title">How often should I have a check-up?</span>
+              <span class="faq-icon-indicator" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-panel" id="faq-panel-7" role="region" aria-labelledby="faq-trig-7" hidden>
+              <p>For most patients, we recommend a routine dental check-up every 6 to 12 months to monitor health and catch issues early. Depending on your dental health, gum conditions, and risk of decay, your dentist might suggest a different interval.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 8 -->
+          <div class="faq-item glass-card">
+            <button class="faq-trigger" id="faq-trig-8" aria-expanded="false" aria-controls="faq-panel-8">
+              <span class="faq-title">Do you treat children?</span>
+              <span class="faq-icon-indicator" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-panel" id="faq-panel-8" role="region" aria-labelledby="faq-trig-8" hidden>
+              <p>Yes, we welcome patients of all ages, including infants and children. Helping children develop positive associations with the dentist and learning good brushing habits early is essential to setting up a lifetime of healthy smiles.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 7. BOOKING & FIND US ============ -->
+    <section class="section" id="booking" aria-labelledby="booking-heading">
+      <div class="container contact-grid">
+        
+        <!-- Form Panel -->
+        <div class="contact-form-wrapper glass-card">
+          <h2 id="booking-heading">Book an Appointment</h2>
+          <p class="form-intro">Fill out the fields below and our front-of-house team will call or email you to confirm your booking date.</p>
+          
+          <form id="bookingForm" class="booking-form" action="https://formspree.io/f/mqeopwwg" method="POST" novalidate>
+            <!-- Formspree Subject Hidden Field -->
+            <input type="hidden" name="_subject" value="New enquiry from Grove Dental Practice site" />
+            
+            <div class="form-group">
+              <label for="form-name">Full Name <span class="req">*</span></label>
+              <input type="text" id="form-name" name="name" placeholder="John Doe" required />
+              <span class="error-text" id="error-name" aria-live="polite">Please enter your full name.</span>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="form-email">Email Address <span class="req">*</span></label>
+                <input type="email" id="form-email" name="email" placeholder="john@example.com" required />
+                <span class="error-text" id="error-email" aria-live="polite">Please enter a valid email address.</span>
+              </div>
+              <div class="form-group">
+                <label for="form-phone">Phone Number <span class="req">*</span></label>
+                <input type="tel" id="form-phone" name="phone" placeholder="07123 456789" required />
+                <span class="error-text" id="error-phone" aria-live="polite">Please enter a valid phone number.</span>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="form-service">Required Service <span class="req">*</span></label>
+                <select id="form-service" name="service" required>
+                  <option value="" disabled selected>Select a treatment...</option>
+                  <option value="checkup">Routine Check-up &amp; Advice</option>
+                  <option value="scale-polish">Scale &amp; Polish</option>
+                  <option value="fillings">Fillings / Restorations</option>
+                  <option value="emergency">Emergency Dental Care</option>
+                  <option value="other">Other / Consultation</option>
+                </select>
+                <span class="error-text" id="error-service" aria-live="polite">Please select a service option.</span>
+              </div>
+              <div class="form-group">
+                <label for="form-caretype">Care Type <span class="req">*</span></label>
+                <select id="form-caretype" name="caretype" required>
+                  <option value="" disabled selected>Select care option...</option>
+                  <option value="nhs">NHS Dental Treatment</option>
+                  <option value="private">Private Care</option>
+                  <option value="undecided">Not Sure / Needs Discussion</option>
+                </select>
+                <span class="error-text" id="error-caretype" aria-live="polite">Please select your preferred care type.</span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="form-notes">Additional Notes (Optional)</label>
+              <textarea id="form-notes" name="notes" rows="3" placeholder="Tell us if you are nervous, have specific pain, or preferred appointment times..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block" id="formSubmitBtn">Send Booking Request</button>
+          </form>
+
+          <!-- Success Inline Message Container -->
+          <div class="form-success-message" id="formSuccessMessage" style="display: none;" role="status">
+            <span class="success-icon" aria-hidden="true">✓</span>
+            <h3>Booking Request Sent</h3>
+            <p>Thanks — we've received your enquiry and will be in touch shortly.</p>
+          </div>
+
+          <!-- Error Inline Message Container -->
+          <div class="form-error-message" id="formErrorMessage" style="display: none;" role="status">
+            <span class="error-icon" aria-hidden="true">⚠️</span>
+            <h3>Submission Error</h3>
+            <p>Could not send request. Please check your internet connection or call 020 8552 1953.</p>
+          </div>
+        </div>
+
+        <!-- Info and Location Details / Map -->
+        <div class="contact-details-panel" id="find-us">
+          <div class="contact-info-card glass-card">
+            <h3>Find &amp; Contact Us</h3>
+            
+            <div class="info-items">
+              <div class="info-item">
+                <span class="info-icon" aria-hidden="true">📍</span>
+                <div>
+                  <h4>Practice Location</h4>
+                  <p>21 Plashet Grove, London E6 1AD</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <span class="info-icon" aria-hidden="true">📞</span>
+                <div>
+                  <h4>Phone Number</h4>
+                  <p><a href="tel:02085521953">020 8552 1953</a></p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <span class="info-icon" aria-hidden="true">✉️</span>
+                <div>
+                  <h4>Email Address</h4>
+                  <p><a href="mailto:contact@grovedentalpractice.co.uk">contact@grovedentalpractice.co.uk</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="opening-hours-wrapper">
+              <h4>Practice Hours</h4>
+              <ul class="hours-list">
+                <li><span>Monday</span> <span>9:00 AM – 1:00 PM, 2:00 – 5:00 PM</span></li>
+                <li><span>Tuesday</span> <span>9:00 AM – 1:00 PM, 2:00 – 5:00 PM</span></li>
+                <li><span>Wednesday</span> <span>9:00 AM – 1:00 PM, 2:00 – 5:00 PM</span></li>
+                <li><span>Thursday</span> <span>9:00 AM – 6:00 PM <small>(Continuous)</small></span></li>
+                <li><span>Friday</span> <span>9:00 AM – 1:00 PM, 2:00 – 5:00 PM</span></li>
+                <li class="closed-day"><span>Saturday &amp; Sunday</span> <span>Closed</span></li>
+              </ul>
+              <p class="hours-note">Note: Closed for lunch between 1:00 PM and 2:00 PM (Monday, Tuesday, Wednesday, Friday).</p>
+            </div>
+          </div>
+
+          <!-- GDPR-Compliant Google Map Panel -->
+          <div class="map-container glass-card" id="mapContainer">
+            <!-- Map Placeholder / Consent Screen -->
+            <div class="map-consent-placeholder" id="mapConsentPlaceholder">
+              <span class="map-placeholder-icon" aria-hidden="true">🗺️</span>
+              <h4>Load Interactive Map</h4>
+              <p>For your privacy, we require your consent to load external Google Maps components. Accepting will store a cookie preference.</p>
+              <button class="btn btn-primary" id="acceptMapBtn">Accept &amp; Show Map</button>
+            </div>
+            <!-- Dynamic map iframe gets inserted here on consent -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <!-- SVG Logo (Single Color variant) -->
+        <svg class="brand-logo-footer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 60" width="160" height="38" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+          <g transform="translate(5, 5)">
+            <path d="M 22 10 C 27 10, 31 13, 35 15 C 39 13, 43 10, 48 10 C 53 10, 56 14, 55 22 C 54 32, 48 42, 45 46 C 44 48, 42 48, 41 46 C 39 42, 38 40, 35 38 C 32 40, 31 42, 29 46 C 28 48, 26 48, 25 46 C 22 42, 16 32, 15 22 C 14 14, 17 10, 22 10 Z" stroke="var(--color-bg)" stroke-width="2.5" />
+            <path d="M 35 15 C 38 18, 38 23, 34 26 C 30 29, 26 27, 26 27 M 26 27 C 29 24, 33 21, 35 15 Z" fill="var(--color-bg)" stroke="var(--color-bg)" stroke-width="1.5" />
+            <path d="M 35 15 L 35 38" stroke="var(--color-bg)" stroke-width="1.5" stroke-dasharray="1 1" />
+          </g>
+          <text x="72" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="19" font-weight="700" fill="var(--color-bg)">Grove Dental</text>
+          <text x="72" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="600" letter-spacing="2" fill="var(--color-primary-light)">PRACTICE</text>
+        </svg>
+        <p>Exceptional family dental care in East Ham for over 25 years. Offering mixed NHS and private treatments in a calm, welcoming environment.</p>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Our Practice</h4>
+        <ul>
+          <li><a href="#about">About Our Story</a></li>
+          <li><a href="#services">Dental Treatments</a></li>
+          <li><a href="#reviews">Patient Reviews</a></li>
+          <li><a href="#team">Meet the Clinicians</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Information</h4>
+        <ul>
+          <li><a href="#find-us">Contact &amp; Address</a></li>
+          <li><a href="#booking">Request Appointment</a></li>
+          <li><a href="tel:02085521953">Emergency Service</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Compliance &amp; Policy</h4>
+        <ul>
+          <li><a href="#">Privacy Policy <small>[Placeholder]</small></a></li>
+          <li><a href="#">Cookie Policy <small>[Placeholder]</small></a></li>
+          <li><a href="#">Complaints Procedure <small>[Placeholder]</small></a></li>
+          <li><span class="gdc-badge">GDC Registered</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p class="gdc-disclosure">[GDC Registered. GDC numbers to be confirmed. Complaints procedure available on request. GDC numbers are mandatory details for NHS/Private practitioners in the UK.]</p>
+        <p class="copyright">&copy; 2026 Grove Dental Practice. All rights reserved. Pitch draft template.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ PERSISTENT / FLOATING CTA ============ -->
+  <div class="floating-cta" id="floatingCta">
+    <a href="#booking" class="btn btn-accent btn-floating" aria-label="Book appointment now">
+      <span class="btn-floating-icon" aria-hidden="true">📅</span>
+      <span class="btn-floating-text">Book Now</span>
+    </a>
+  </div>
+
+  <!-- ============ COOKIE CONSENT GDPR BANNER ============ -->
+  <div class="cookie-banner" id="cookieBanner" role="dialog" aria-labelledby="cookieBannerHeading" aria-describedby="cookieBannerText" hidden>
+    <div class="container cookie-inner">
+      <div class="cookie-content">
+        <h4 id="cookieBannerHeading">Cookie Consent &amp; Privacy</h4>
+        <p id="cookieBannerText">We use functional cookies to enable external services like Google Maps. You can accept or deny cookies below. To view our full policies, check our placeholders in the footer.</p>
+      </div>
+      <div class="cookie-actions">
+        <button class="btn btn-secondary btn-sm" id="cookieDeclineBtn">Decline</button>
+        <button class="btn btn-primary btn-sm" id="cookieAcceptBtn">Accept All</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
